@@ -1,0 +1,23 @@
+
+.languageselector {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+  .map{
+    margin:5px;
+
+  }
+  .s_language{
+    margin: 5px;
+  }
+  .btn:hover {
+    background-color: #ff4d4d
+
+  }
+  
+  #serch{
+    top: 8%;
+  }
