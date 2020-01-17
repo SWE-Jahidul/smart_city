@@ -21,3 +21,40 @@
   #serch{
     top: 8%;
   }
+
+  .test{
+    position: absolute;
+    top: 15%;
+    margin-left:3%;
+  }
+/* main title design  */
+  .main_title{
+    position: relative;
+    margin: 0 0 24px 0;
+    padding: 0 30px 24px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  li a {
+    font-size: 13px;
+    color: #ff4d4d;
+  }
+  h6 a{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+  }
+
+  h3{
+    padding-top: 3%;
+    margin-left: 3%;
+  }
+
+  .post_link {
+    display: block;
+    height: 160px;
+    background-size: cover;
+    background-position: center 0;
+}
+.post_title{
+  color: #ff4d4d;
+}
