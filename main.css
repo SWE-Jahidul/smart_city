@@ -1,4 +1,8 @@
-
+body
+{
+  width: 100%;
+  background-color: whitesmoke;
+}
 .languageselector {
   position: absolute;
   top: 5%;
@@ -96,4 +100,36 @@ font-weight: bold;
 .mybtn a:hover {
   background-color: #ff0000;
   color: white;
+}
+.weather{
+  margin-top:12%;
+}
+
+.weather_header {
+  position: absolute;
+  top: 41%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.table{
+  position: absolute;
+  top: 43%;
+  left: 13%;
+  color: white;
+  width: 80%;
+}
+
+.weather_detail_link
+{
+  position: absolute;
+  top: 68%;
+  left: 17%;
+  color: white;
+  width: 80%;
+}
+.date{
+  font-size: 10px;
+
 }
