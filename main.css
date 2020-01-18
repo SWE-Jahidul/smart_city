@@ -58,3 +58,42 @@
 .post_title{
   color: #ff4d4d;
 }
+
+.container .news_title_for_notice a{
+color: #ff4d4d;
+padding-bottom: 1rem;
+font-size: small;
+font-weight: bold;
+}
+.notice_heading{
+  padding-top: 1rem;
+  
+}
+
+#more_notice
+{
+  padding-bottom: 1rem;
+}
+
+.intersting_places{
+  padding-top: 1rem;
+}
+
+/* button  */
+
+.mybtn a {
+  background-color: rgb(218, 63, 63);
+  border: 1px solid white;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.mybtn a:hover {
+  background-color: #ff0000;
+  color: white;
+}
