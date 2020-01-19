@@ -168,14 +168,36 @@ font-weight: bold;
 
 /* footer optimntimize  and footer section design  */
 .footer_half_black {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
   text-align: center;
-  padding: 3%;
+  padding: 2%;
+  margin-top: -24%;
 }
+
+/*  footer image blor  */
+
+
+.footer_image
+{
+        
+    /* Add the blur effect */
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
 
 p a{
   color: #ff0000;
@@ -227,3 +249,4 @@ p a{
   background: #55ACEE;
   color: white;
 }
+
