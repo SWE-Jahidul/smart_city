@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> notices </title>
+    <!-- bootstrub css file  -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- main css file  -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+
+</head>
+
+<style>
+    /* weather  */
+    .weather {
+        margin-top: 12%;
+    }
+
+    /* weather header  */
+    .weather_header {
+        position: absolute;
+        top: 25%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    /* weather details table  */
+
+    .table {
+        position: absolute;
+        top: 27%;
+        left: 13%;
+        color: white;
+        width: 80%;
+    }
+
+    /*  weather details link  */
+    .weather_detail_link {
+        position: absolute;
+        top: 42%;
+        left: 17%;
+        color: white;
+        width: 80%;
+    }
+
+
+    @media (max-width: 575.98px) {
+
+        /* weather  */
+        .weather {
+            margin-top: 12%;
+        }
+
+        /* weather header  */
+        .weather_header {
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        /* weather details table  */
+
+        .table {
+            position: absolute;
+            top: 47%;
+            left: 8%;
+            color: white;
+            width: 68%;
+        }
+
+        /*  weather details link  */
+        .weather_detail_link {
+            position: absolute;
+            top: 70%;
+            left: 13%;
+            color: white;
+            width: 80%;
+        }
+    }
+</style>
+
+<body>
+    <div class="  site-blocks-cover overlay responsive ">
+        <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid main_img" alt="Responsive image "
+            style="width: 100%;" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="col-sm-12 languageselector">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="logo_title"> BHANDARIA MUNICIPALITY </p>
+                </div>
+                <div class="col-sm-1 btn-group s_language" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-light">EN</button>
+                    <button type="button" class="btn btn-light">BAN</button>
+                </div>
+
+                <div class="col-sm-1">
+                    <button type="button " class="btn btn-light map"> MAP </button>
+
+                </div>
+
+                <div style="margin-top:3px" role="group" aria-label="Second group" id="serch">
+                    <input class="form-control py-2" type="search" value="search" id="example-search-input">
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-12 menu_main">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="container-fluid">
+                        <div class="mybtn responsive" style="width: 18rem;">
+                            <a class="button">HOME</a>
+                            <a class="button">NEWS</a>
+                            <a class="button">NOTICES</a>
+                            <a class="button">DIRECTORY</a>
+                            <a class="button">EVENTS</a>
+                            <a class="button">GAlLARES</a>
+                            <a class="button">DOCUMENTS</a>
+                            <a class="button">PEPOLE</a>
+                            <a class="button">FOROME</a>
+                            <a class="button">PAGE EXAMPLES</a>
+                        </div>
+                    </div>
+                    <!-- weather info  -->
+                    <div class="container-fluid">
+
+
+                        <div class=" bg-light weather" style="width: 18rem;">
+                            <img src="download.jpeg" style="width:100%;height:400px;" class="img-fluid"
+                                alt="Responsive image" data-aos="fade" data-stellar-background-ratio="0.5">
+                            <h5 class="weather_header"> WEATHER INFO </h5>
+                            <div class="weather_details">
+                                <table class="table ">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"> <small> Local Time</small>
+                                                <br> <small class="date">January 18, 2020
+                                                </small>
+                                            </th>
+
+                                            <th scope="col">8.30</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Today
+                                                <br> <small>January 18, 2020
+                                                </small>
+                                            </th>
+
+                                            <td>-6°</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Sunday
+                                                <br> <small>January 19, 2020
+                                                </small>
+                                            </th>
+
+                                            <td>24°</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Monday
+                                                <br> <small>January 20, 2020
+                                                </small>
+                                            </th>
+
+                                            <td>16°</td>
+
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                                <p class="weather_detail_link"> weather data by <a
+                                        href="www.weather.com">weather.com</a>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- gallary -->
+
+                    <div class="container" style="width: 18rem;">
+                        <h6>FEATURED GALLERY
+                        </h6>
+                        <img class="card-img-top" src="1-whytheweathe.jpg" style="width:110%" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="galary_title"><a href="#">Streets of Bhandaria</a>
+                                <br> <small>November 17, 2018
+
+                                </small></p>
+
+                            <p> <a href="#"> More </a></p>
+                        </div>
+                    </div>
+
+                    <!-- gallary -->
+
+                </div>
+                <div class="col-md-8">
+                    <div class="half_black text-white ">
+                        <h2 class="main_title"> <b>Notices </b><br>
+
+                    </div>
+
+                    <br>
+                    <!-- choose your interest  -->
+
+                    <div class="col-md-12 ">
+                        <div class="card">
+                            <div class="card-header" style="color: red;">
+                                <a href=""> Soccer Tournament Timetable </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">A knockout tournament or elimination tournament is divided
+                                    into successive rounds; each competitor plays in at least one fixture per
+                                    round. The top-ranked competitors in each fixture progress to the next
+                                    round. As rounds progress, the number of competitors and fixtures decreases.
+                                    The final round, usually known as the final or cup final, consists of just
+                                    one fixture; the winner of which is the overall champion.
+
+                                    In a single-elimination tournament, only the top-ranked competitors in a
+                                    fixture progress; in 2-competitor games, only the winner progresses. All
+                                    other competitors are eliminated. This ensures a winner is decided with the
+                                    minimum number of fixtures. However, most competitors will be eliminated
+                                    after relatively few matches; a single bad or unlucky performance can
+                                    nullify many preceding excellent ones.
+
+                                    A double-elimination tournament may be used in 2-competitor games to allow
+                                    each competitor a single loss without being eliminated from the tournament.
+                                    All losers from the main bracket enter a losers’ bracket, the winner of
+                                    which plays off against the main bracket’s winner.</p>
+                                <p> December 1, 2018 by
+                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card">
+                            <div class="card-header" style="color: red;">
+                                <a href=""> Soccer Tournament Timetable </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Soccer Tournament Timetable</h5>
+                                <p class="card-text">The marathon is a long-distance running event with an official
+                                    distance of 42.195 kilometres (26 miles and 385 yards), usually run as a road race.
+                                    The event was instituted in commemoration of the fabled run of the Greek soldier
+                                    Pheidippides, a messenger from the Battle of Marathon to Athens.
+
+                                    The marathon was one of the original modern Olympic events in 1896, though the
+                                    distance did not become standardized until 1921. More than 500 marathons are held
+                                    throughout the world each year, with the vast majority of competitors being
+                                    recreational athletes as larger marathons can have tens of thousands of
+                                    participants.</p>
+                                <p> December 1, 2018 by
+                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <!--  -->
+
+                        <div class="card">
+                            <div class="card-header" style="color: red;">
+                                <a href=""> Soccer Tournament Timetable </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">A knockout tournament or elimination tournament is divided
+                                    into successive rounds; each competitor plays in at least one fixture per
+                                    round. The top-ranked competitors in each fixture progress to the next
+                                    round. As rounds progress, the number of competitors and fixtures decreases.
+                                    The final round, usually known as the final or cup final, consists of just
+                                    one fixture; the winner of which is the overall champion.
+
+                                    In a single-elimination tournament, only the top-ranked competitors in a
+                                    fixture progress; in 2-competitor games, only the winner progresses. All
+                                    other competitors are eliminated. This ensures a winner is decided with the
+                                    minimum number of fixtures. However, most competitors will be eliminated
+                                    after relatively few matches; a single bad or unlucky performance can
+                                    nullify many preceding excellent ones.
+
+                                    A double-elimination tournament may be used in 2-competitor games to allow
+                                    each competitor a single loss without being eliminated from the tournament.
+                                    All losers from the main bracket enter a losers’ bracket, the winner of
+                                    which plays off against the main bracket’s winner.</p>
+                                <p> December 1, 2018 by
+                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card">
+                            <div class="card-header" style="color: red;">
+                                <a href=""> Soccer Tournament Timetable </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">A knockout tournament or elimination tournament is divided into
+                                    successive rounds; each competitor plays in at least one fixture per round. The
+                                    top-ranked competitors in each fixture progress to the next round. As rounds
+                                    progress, the number of competitors and fixtures decreases. The final round, usually
+                                    known as the final or cup final, consists of just one fixture; the winner of which
+                                    is the overall champion. In a single-elimination tournament, only the top-ranked
+                                    competitors in a fixture progress; in 2-competitor games, only the winner
+                                    progresses. All other competitors are eliminated. This ensures a winner is decided
+                                    with the minimum number of fixtures. However, most competitors will be eliminated
+                                    after relatively few matches; a single bad or unlucky performance can nullify many
+                                    preceding excellent ones. A double-elimination tournament may be used in
+                                    2-competitor games to allow each competitor a single loss without being eliminated
+                                    from the tournament. All losers from the main bracket enter a losers’ bracket, the
+                                    winner of which plays off against the main bracket’s winner.</p>
+                                <p> December 1, 2019 by
+                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+
+                </div> <!-- letest news section start  -->
+
+                <!-- footer section -->
+                <div>
+                    <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
+                        alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
+                        data-stellar-background-ratio="0.5">
+
+                    <!-- <footer class="footer_half_black "> -->
+                    <!--  testing end  -->
+                    <div class="col-md-12 footer_half_black">
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <h6> <b> ABOUT CITY</b>
+                                </h6>
+                                <br>
+                                <p class="float-left">TownPress is a premium Municipality WordPress theme. It is
+                                    best suited to be used
+                                    as
+                                    a presentation site for small to medium towns.
+                                    You will find an extensive list of features to help create the website your
+                                    town
+                                    needs!</p>
+                            </div>
+                            <!-- upcoming events  -->
+                            <div class="col-md-3">
+                                <h6> <b>UPCOMING EVENTS </b>
+                                </h6>
+                                <br>
+                                <p class="footer_upcoming_events">
+                                    <a href="#" class="float-left"> Kids Sports Day </a>
+                                    <br>
+                                    <small class="float-left">8:00 am - 5:00 pm
+                                    </small> <br>
+                                    <small><a href="#" class="float-left">TownPress Stadium</a></small>
+                                </p>
+                                <br>
+                                <p class="footer_upcoming_events">
+                                    <a href="#" class="float-left"> Kids Sports Day </a>
+                                    <br>
+                                    <small class="float-left">8:00 am - 5:00 pm
+                                    </small> <br>
+
+                                    <small> <a href="#" class="float-left">TownPress Stadium</a></small>
+                                </p>
+                            </div>
+                            <!-- important Forms  -->
+                            <div class="col-md-3 ">
+                                <h6 class="">
+                                    <b> IMPORTANT FORMS </b>
+                                </h6>
+                                <br>
+                                <p>
+                                    <a href="#" class="float-left"> Town Board Applications
+                                    </a>
+                                    <br> <small class="float-left"> December 2, 2018
+                                    </small>
+                                    <br>
+                                    <a href="#" class="float-left"> Town Board Applications
+                                    </a>
+                                    <br> <small class="float-left"> December 2, 2018
+                                    </small>
+                                </p>
+                                <br>
+                                <p><a class="float-left" href="#">More Documents </a></p>
+
+                            </div>
+                            <div class="col-md-3">
+                                <h6> <b>QUICK CONTACT </b>
+                                </h6>
+                                <br>
+                                <p class="float-left"> P.O. Box 123 TownPress
+                                    VT 12345</p>
+                                <p class="float-left">
+                                    Phone: (123) 456-7890
+                                </p>
+                                <p class="float-left">Fax: (123) 456-7891
+                                </p>
+                                <p class="float-left"> Email : <a href="#">townpress@example.org</a></p>
+                            </div>
+                        </div>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+
+                    </div>
+
+                    <!-- </footer> -->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

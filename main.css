@@ -135,7 +135,7 @@ font-weight: bold;
 /* weather header  */
 .weather_header {
   position: absolute;
-  top: 41%;
+  top: 43%;
   left: 45%;
   transform: translate(-50%, -50%);
   color: white;
@@ -144,7 +144,7 @@ font-weight: bold;
 
 .table{
   position: absolute;
-  top: 43%;
+  top: 44%;
   left: 13%;
   color: white;
   width: 80%;
@@ -154,7 +154,7 @@ font-weight: bold;
 .weather_detail_link
 {
   position: absolute;
-  top: 68%;
+  top: 69%;
   left: 17%;
   color: white;
   width: 80%;
