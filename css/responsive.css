@@ -66,6 +66,39 @@
       {
        text-align: center;
       }
+
+      /* weather  */
+.weather{
+  margin-top:12%;
+}
+
+/* weather header  */
+.weather_header {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* weather details table  */
+
+.table{
+  position: absolute;
+  top: 47%;
+  left: 8%;
+  color: white;
+  width: 68%;
+}
+
+/*  weather details link  */
+.weather_detail_link
+{
+  position: absolute;
+  top: 70%;
+  left: 13%;
+  color: white;
+  width: 80%;
+}
   }
 
         
