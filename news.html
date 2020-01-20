@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> notices </title>
+    <!-- bootstrub css file  -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- main css file  -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+
+</head>
+
+<style>
+    /* weather  */
+    .weather {
+        margin-top: 12%;
+    }
+
+    /* weather header  */
+    .weather_header {
+        position: absolute;
+        top: 39%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    /* weather details table  */
+
+    .table {
+        position: absolute;
+        top: 42%;
+        left: 13%;
+        color: white;
+        width: 80%;
+    }
+
+    /*  weather details link  */
+    .weather_detail_link {
+        position: absolute;
+        top: 66%;
+        left: 17%;
+        color: white;
+        width: 80%;
+    }
+
+
+    @media (max-width: 575.98px) {
+
+        /* weather  */
+        .weather {
+            margin-top: 12%;
+        }
+
+        /* weather header  */
+        .weather_header {
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        /* weather details table  */
+
+        .table {
+            position: absolute;
+            top: 47%;
+            left: 16%;
+            color: white;
+            width: 68%;
+        }
+
+        /*  weather details link  */
+        .weather_detail_link {
+            position: absolute;
+            top: 70%;
+            left: 13%;
+            color: white;
+            width: 80%;
+        }
+
+        .footer_detail {
+            text-align: center;
+        }
+
+        .footer_half_black {
+            background: rgba(0, 0, 0, 0.7);
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+
+            margin-top: -95%;
+        }
+
+    }
+</style>
+
+<body>
+    <div class="  site-blocks-cover overlay responsive ">
+        <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid main_img" alt="Responsive image "
+            style="width: 100%;" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="col-sm-12 languageselector">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="logo_title"> BHANDARIA MUNICIPALITY </p>
+                </div>
+                <div class="col-sm-1 btn-group s_language" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-light">EN</button>
+                    <button type="button" class="btn btn-light">BAN</button>
+                </div>
+
+                <div class="col-sm-1">
+                    <button type="button " class="btn btn-light map"> MAP </button>
+
+                </div>
+
+                <div style="margin-top:3px" role="group" aria-label="Second group" id="serch">
+                    <input class="form-control py-2" type="search" value="search" id="example-search-input">
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-12 menu_main">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="container-fluid">
+                        <div class="mybtn responsive" style="width: 18rem;">
+                            <a class="button">HOME</a>
+                            <a class="button">NEWS</a>
+                            <a class="button">NOTICES</a>
+                            <a class="button">DIRECTORY</a>
+                            <a class="button">EVENTS</a>
+                            <a class="button">GAlLARES</a>
+                            <a class="button">DOCUMENTS</a>
+                            <a class="button">PEPOLE</a>
+                            <a class="button">FOROME</a>
+                            <a class="button">PAGE EXAMPLES</a>
+                        </div>
+                    </div>
+                    <!-- weather info  -->
+                    <div class="container-fluid">
+
+
+                        <div class=" bg-light weather" style="width: 18rem;">
+                            <img src="download.jpeg" style="width:100%;height:400px;" class="img-fluid"
+                                alt="Responsive image" data-aos="fade" data-stellar-background-ratio="0.5">
+                            <h5 class="weather_header"> WEATHER INFO </h5>
+                            <div class="weather_details">
+                                <table class="table ">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"> <small> Local Time</small>
+                                                <br> <small class="date">January 18, 2020
+                                                </small>
+                                            </th>
+
+                                            <th scope="col">8.30</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Today
+                                                <br> <small>January 18, 2020
+                                                </small>
+                                            </th>
+
+                                            <td>-6°</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Sunday
+                                                <br> <small>January 19, 2020
+                                                </small>
+                                            </th>
+
+                                            <td>24°</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Monday
+                                                <br> <small>January 20, 2020
+                                                </small>
+                                            </th>
+
+                                            <td>16°</td>
+
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                                <p class="weather_detail_link"> weather data by <a
+                                        href="www.weather.com">weather.com</a>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- gallary -->
+
+                    <div class="container" style="width: 18rem;">
+                        <h6>FEATURED GALLERY
+                        </h6>
+                        <img class="card-img-top" src="1-whytheweathe.jpg" style="width:110%" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="galary_title"><a href="#">Streets of Bhandaria</a>
+                                <br> <small>November 17, 2018
+
+                                </small></p>
+
+                            <p> <a href="#"> More </a></p>
+                        </div>
+                    </div>
+
+                    <!-- gallary -->
+
+                </div>
+                <div class="col-md-8">
+                    <div class="half_black text-white ">
+                        <h2 class="main_title"> <b>New </b><br>
+
+                    </div>
+
+                    <br>
+                    <!-- choose your interest  -->
+
+                    <div class="col-md-12 ">
+                        <div class="card">
+
+                            <div >
+                                <img src="1-whytheweathe.jpg" class="card-img-top" alt="..." class=" img-fluid"
+                                    style="width:100% ;height: 150px;;">
+                                <div class="card-body">
+                                    <h5 class="card-title " style="color: red;"> <a class="#"> Report from Friendly Soccer Match Between
+                                            TownPress and Pressville</a>
+                                    </h5>
+                                    <p class="card-text">Football refers to a number of sports that involve, to varying degrees, kicking a ball with the foot to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular.
+
+                                    </p>
+                                    <a href="#">Read More</a>
+                                  <small>
+                                    <p> December 1, 2018 by  at <a href="#"> LSVRthemes in Sport</a> </p>
+                                  </small>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card">
+
+                            <div >
+                                <img src="1-whytheweathe.jpg" class="card-img-top" alt="..." class=" img-fluid"
+                                    style="width:100% ;height: 150px;;">
+                                <div class="card-body">
+                                    <h5 class="card-title " style="color: red;"> <a class="#"> Report from Friendly Soccer Match Between
+                                            TownPress and Pressville</a>
+                                    </h5>
+                                    <p class="card-text">Football refers to a number of sports that involve, to varying degrees, kicking a ball with the foot to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular.
+
+                                    </p>
+                                    <a href="#">Read More</a>
+                                  <small>
+                                    <p> December 1, 2018 by  at <a href="#"> LSVRthemes in Sport</a> </p>
+                                  </small>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!--  -->
+
+                        <div class="card">
+
+                            <div >
+                                <img src="1-whytheweathe.jpg" class="card-img-top" alt="..." class=" img-fluid"
+                                    style="width:100% ;height: 150px;;">
+                                <div class="card-body">
+                                    <h5 class="card-title " style="color: red;"> <a class="#"> Report from Friendly Soccer Match Between
+                                            TownPress and Pressville</a>
+                                    </h5>
+                                    <p class="card-text">Football refers to a number of sports that involve, to varying degrees, kicking a ball with the foot to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular.
+
+                                    </p>
+                                    <a href="#">Read More</a>
+                                  <small>
+                                    <p> December 1, 2018 by  at <a href="#"> LSVRthemes in Sport</a> </p>
+                                  </small>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+
+                </div> <!-- letest news section start  -->
+
+                <!-- footer section -->
+                <!-- footer section -->
+                <div>
+                    <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
+                        alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
+                        data-stellar-background-ratio="0.5">
+
+                    <!-- <footer class="footer_half_black "> -->
+                    <!--  testing end  -->
+                    <div class="col-md-12 footer_half_black">
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <h6> <b> ABOUT CITY</b>
+                                </h6>
+                                <br>
+                                <p class="footer_detail">TownPress is a premium Municipality WordPress theme. It is
+                                    best suited to be used
+                                    as
+                                    a presentation site for small to medium towns.
+                                    You will find an extensive list of features to help create the website your town
+                                    needs!</p>
+                            </div>
+                            <!-- upcoming events  -->
+                            <div class="col-md-3">
+                                <h6> <b>UPCOMING EVENTS </b>
+                                </h6>
+                                <br>
+                                <p class="footer_upcoming_events footer_detail">
+                                    <a href="#" class=""> Kids Sports Day </a>
+                                    <br>
+                                    <small class="">8:00 am - 5:00 pm
+                                    </small> <br>
+                                    <small><a href="#" class="">TownPress Stadium</a></small>
+                                </p>
+                                <br>
+                                <p class="footer_upcoming_events footer_detail">
+                                    <a href="#" class=""> Kids Sports Day </a>
+                                    <br>
+                                    <small class="">8:00 am - 5:00 pm
+                                    </small> <br>
+
+                                    <small> <a href="#" class="">TownPress Stadium</a></small>
+                                </p>
+                            </div>
+                            <!-- important Forms  -->
+                            <div class="col-md-3 ">
+                                <h6 class="">
+                                    <b> IMPORTANT FORMS </b>
+                                </h6>
+                                <br>
+                                <p class="footer_detail">
+                                    <a href="#" class=" "> Town Board Applications
+                                    </a>
+                                    <br> <small class=""> December 2, 2018
+                                    </small>
+                                    <br>
+                                    <a href="#" class=""> Town Board Applications
+                                    </a>
+                                    <br> <small class=""> December 2, 2018
+                                    </small>
+                                </p>
+                                <br>
+                                <p class="footer_detail"><a class="" href="#">More Documents </a></p>
+
+                            </div>
+                            <div class="col-md-3">
+                                <h6> <b>QUICK CONTACT </b>
+                                </h6>
+                                <br>
+                                <p class=" footer_detail"> P.O. Box 123 TownPress
+                                    VT 12345</p>
+                                <p class="footer_detail">
+                                    Phone: (123) 456-7890
+                                </p>
+                                <p class=" footer_detail">Fax: (123) 456-7891
+                                </p>
+                                <p class=" footer_detail"> Email : <a href="#">townpress@example.org</a></p>
+                            </div>
+                        </div>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+
+                    </div>
+
+                    <!-- </footer> -->
+
+
+                    <!-- </footer> -->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

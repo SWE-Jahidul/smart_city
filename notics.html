@@ -28,8 +28,8 @@
     /* weather header  */
     .weather_header {
         position: absolute;
-        top: 25%;
-        left: 45%;
+        top: 26%;
+        left: 50%;
         transform: translate(-50%, -50%);
         color: white;
     }
@@ -88,6 +88,22 @@
             color: white;
             width: 80%;
         }
+        .footer_detail
+        {
+         text-align: center;
+        }
+
+        .footer_half_black {
+            background: rgba(0, 0, 0, 0.7);
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            
+            margin-top: -95%;
+          }
+  
     }
 </style>
 
@@ -337,89 +353,92 @@
                 </div> <!-- letest news section start  -->
 
                 <!-- footer section -->
-                <div>
-                    <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
-                        alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
-                        data-stellar-background-ratio="0.5">
+               <!-- footer section -->
+               <div>
+                <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
+                    alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
+                    data-stellar-background-ratio="0.5">
 
-                    <!-- <footer class="footer_half_black "> -->
-                    <!--  testing end  -->
-                    <div class="col-md-12 footer_half_black">
-                        <div class="row">
-                            <div class="col-md-3 ">
-                                <h6> <b> ABOUT CITY</b>
-                                </h6>
-                                <br>
-                                <p class="float-left">TownPress is a premium Municipality WordPress theme. It is
-                                    best suited to be used
-                                    as
-                                    a presentation site for small to medium towns.
-                                    You will find an extensive list of features to help create the website your
-                                    town
-                                    needs!</p>
-                            </div>
-                            <!-- upcoming events  -->
-                            <div class="col-md-3">
-                                <h6> <b>UPCOMING EVENTS </b>
-                                </h6>
-                                <br>
-                                <p class="footer_upcoming_events">
-                                    <a href="#" class="float-left"> Kids Sports Day </a>
-                                    <br>
-                                    <small class="float-left">8:00 am - 5:00 pm
-                                    </small> <br>
-                                    <small><a href="#" class="float-left">TownPress Stadium</a></small>
-                                </p>
-                                <br>
-                                <p class="footer_upcoming_events">
-                                    <a href="#" class="float-left"> Kids Sports Day </a>
-                                    <br>
-                                    <small class="float-left">8:00 am - 5:00 pm
-                                    </small> <br>
-
-                                    <small> <a href="#" class="float-left">TownPress Stadium</a></small>
-                                </p>
-                            </div>
-                            <!-- important Forms  -->
-                            <div class="col-md-3 ">
-                                <h6 class="">
-                                    <b> IMPORTANT FORMS </b>
-                                </h6>
-                                <br>
-                                <p>
-                                    <a href="#" class="float-left"> Town Board Applications
-                                    </a>
-                                    <br> <small class="float-left"> December 2, 2018
-                                    </small>
-                                    <br>
-                                    <a href="#" class="float-left"> Town Board Applications
-                                    </a>
-                                    <br> <small class="float-left"> December 2, 2018
-                                    </small>
-                                </p>
-                                <br>
-                                <p><a class="float-left" href="#">More Documents </a></p>
-
-                            </div>
-                            <div class="col-md-3">
-                                <h6> <b>QUICK CONTACT </b>
-                                </h6>
-                                <br>
-                                <p class="float-left"> P.O. Box 123 TownPress
-                                    VT 12345</p>
-                                <p class="float-left">
-                                    Phone: (123) 456-7890
-                                </p>
-                                <p class="float-left">Fax: (123) 456-7891
-                                </p>
-                                <p class="float-left"> Email : <a href="#">townpress@example.org</a></p>
-                            </div>
+                <!-- <footer class="footer_half_black "> -->
+                <!--  testing end  -->
+                <div class="col-md-12 footer_half_black">
+                    <div class="row">
+                        <div class="col-md-3 ">
+                            <h6> <b> ABOUT CITY</b>
+                            </h6>
+                            <br>
+                            <p class="footer_detail">TownPress is a premium Municipality WordPress theme. It is
+                                best suited to be used
+                                as
+                                a presentation site for small to medium towns.
+                                You will find an extensive list of features to help create the website your town
+                                needs!</p>
                         </div>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                        <a href="#" class="fa fa-twitter"></a>
+                        <!-- upcoming events  -->
+                        <div class="col-md-3">
+                            <h6> <b>UPCOMING EVENTS </b>
+                            </h6>
+                            <br>
+                            <p class="footer_upcoming_events footer_detail">
+                                <a href="#" class=""> Kids Sports Day </a>
+                                <br>
+                                <small class="">8:00 am - 5:00 pm
+                                </small> <br>
+                                <small><a href="#" class="">TownPress Stadium</a></small>
+                            </p>
+                            <br>
+                            <p class="footer_upcoming_events footer_detail">
+                                <a href="#" class=""> Kids Sports Day </a>
+                                <br>
+                                <small class="">8:00 am - 5:00 pm
+                                </small> <br>
 
+                                <small> <a href="#" class="">TownPress Stadium</a></small>
+                            </p>
+                        </div>
+                        <!-- important Forms  -->
+                        <div class="col-md-3 ">
+                            <h6 class="">
+                                <b> IMPORTANT FORMS </b>
+                            </h6>
+                            <br>
+                            <p class = "footer_detail">
+                                <a href="#" class=" "> Town Board Applications
+                                </a>
+                                <br> <small class=""> December 2, 2018
+                                </small>
+                                <br>
+                                <a href="#" class=""> Town Board Applications
+                                </a>
+                                <br> <small class=""> December 2, 2018
+                                </small>
+                            </p>
+                            <br>
+                            <p class = "footer_detail"><a class="" href="#">More Documents </a></p>
+
+                        </div>
+                        <div class="col-md-3">
+                            <h6> <b>QUICK CONTACT </b>
+                            </h6>
+                            <br>
+                            <p class=" footer_detail"> P.O. Box 123 TownPress
+                                VT 12345</p>
+                            <p class="footer_detail">
+                                Phone: (123) 456-7890
+                            </p>
+                            <p class=" footer_detail">Fax: (123) 456-7891
+                            </p>
+                            <p class=" footer_detail"> Email : <a href="#">townpress@example.org</a></p>
+                        </div>
                     </div>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+
+                </div>
+               
+                <!-- </footer> -->
+
 
                     <!-- </footer> -->
 
