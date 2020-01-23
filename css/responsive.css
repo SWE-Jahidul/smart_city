@@ -68,45 +68,15 @@
       }
 
       /* weather  */
-.weather{
-  margin-top:12%;
-}
+      .weather_details{
+        margin-top:-105%;
+        color: white;
+      }
 
-/* weather header  */
-.weather_header {
-  position: absolute;
-  top: 45%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-/* weather details table  */
-
-.table{
-  position: absolute;
-  top: 47%;
-  left: 8%;
-  color: white;
-  width: 68%;
-}
-
-/*  weather details link  */
-.weather_detail_link
-{
-  position: absolute;
-  top: 70%;
-  left: 13%;
-  color: white;
-  width: 80%;
-}
   }
 
-        
-
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    
-     
-
+  
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) {  }

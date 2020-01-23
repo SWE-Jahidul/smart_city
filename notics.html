@@ -20,74 +20,17 @@
 </head>
 
 <style>
-    /* weather  */
-    .weather {
-        margin-top: 12%;
-    }
-
-    /* weather header  */
-    .weather_header {
-        position: absolute;
-        top: 26%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-    }
-
-    /* weather details table  */
-
-    .table {
-        position: absolute;
-        top: 27%;
-        left: 13%;
-        color: white;
-        width: 80%;
-    }
-
-    /*  weather details link  */
-    .weather_detail_link {
-        position: absolute;
-        top: 42%;
-        left: 17%;
-        color: white;
-        width: 80%;
-    }
+   /* weather  */
+  .weather_details{
+  margin-top:-90%;
+  color: white;
+}
+tr th{
+  color:white;
+}
 
 
     @media (max-width: 575.98px) {
-
-        /* weather  */
-        .weather {
-            margin-top: 12%;
-        }
-
-        /* weather header  */
-        .weather_header {
-            position: absolute;
-            top: 45%;
-            left: 45%;
-            transform: translate(-50%, -50%);
-            color: white;
-        }
-
-        /* weather details table  */
-
-        .table {
-            position: absolute;
-            top: 47%;
-            left: 8%;
-            color: white;
-            width: 68%;
-        }
-
-        /*  weather details link  */
-        .weather_detail_link {
-            position: absolute;
-            top: 70%;
-            left: 13%;
-            color: white;
-            width: 80%;
-        }
         .footer_detail
         {
          text-align: center;
@@ -103,7 +46,27 @@
             
             margin-top: -95%;
           }
-  
+          .footer_half_black {
+        background: rgba(0, 0, 0, 0.7);
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        
+        margin-top: -75%;
+      }
+      .footer_detail
+      {
+       text-align: center;
+      }
+
+      /* weather  */
+      .weather_details{
+        margin-top:-110%;
+        color: white;
+      }
+
     }
 </style>
 
@@ -136,7 +99,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="container-fluid">
-                        <div class="mybtn responsive" style="width: 18rem;">
+                        <div class="mybtn responsive">
                             <a class="button">HOME</a>
                             <a class="button">NEWS</a>
                             <a class="button">NOTICES</a>
@@ -149,16 +112,15 @@
                             <a class="button">PAGE EXAMPLES</a>
                         </div>
                     </div>
+                    <br>
                     <!-- weather info  -->
                     <div class="container-fluid">
-
-
-                        <div class=" bg-light weather" style="width: 18rem;">
+                        <div class=" bg-light weather">
                             <img src="download.jpeg" style="width:100%;height:400px;" class="img-fluid"
                                 alt="Responsive image" data-aos="fade" data-stellar-background-ratio="0.5">
-                            <h5 class="weather_header"> WEATHER INFO </h5>
-                            <div class="weather_details">
-                                <table class="table ">
+                         <div class="weather_details">
+                            <h5 class="weather_header text-center "> WEATHER INFO </h5>
+                                <table class="table text-white text-center ">
                                     <thead>
                                         <tr>
                                             <th scope="col"> <small> Local Time</small>
@@ -201,7 +163,7 @@
                                     </tbody>
 
                                 </table>
-                                <p class="weather_detail_link"> weather data by <a
+                                <p class="weather_detail_link text-center "> weather data by <a
                                         href="www.weather.com">weather.com</a>
                                 </p>
 
@@ -211,8 +173,8 @@
                     <br>
                     <!-- gallary -->
 
-                    <div class="container" style="width: 18rem;">
-                        <h6>FEATURED GALLERY
+                    <div class="container-fluid featured_gallery " >
+                        <h6 class="text-center" >FEATURED GALLERY
                         </h6>
                         <img class="card-img-top" src="1-whytheweathe.jpg" style="width:110%" alt="Card image cap">
                         <div class="card-body">
@@ -230,7 +192,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="half_black text-white ">
-                        <h2 class="main_title"> <b>Notices </b><br>
+                        <h2 class="main_title text-justify"> <b>Notices </b><br>
 
                     </div>
 
