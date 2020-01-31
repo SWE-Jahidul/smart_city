@@ -126,42 +126,23 @@ font-weight: bold;
   background-color: #ff0000;
   color: white;
 }
-
-/* weather  */
-.weather_details{
-  margin-top:-90%;
-  color: white;
+.table
+{
+width: 80%;
 }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+
 tr th{
   color:white;
 }
-/* weather header  */
-/* .weather_header {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  color: white;
-} */
-/* weather details table  */
-/* 
-.table{
-  position: absolute;
-  top: 42%;
-  left: 12%;
-  color: white;
-  width: 80%;
-} */
 
-/*  weather details link  */
-/* .weather_detail_link
-{
-  position: absolute;
-  top: 63%;
-  left: 15%;
-  color: white;
-  width: 80%;
-} */
+
 /* for only date  */
 .date{
   font-size: 10px;
@@ -179,7 +160,7 @@ tr th{
   color: white;
   text-align: center;
   padding: 2%;
-  margin-top: -16%;
+  margin-top: -23%;
 }
 .footer_detail
 {
@@ -264,8 +245,4 @@ p a{
  
 }
 
-/* .pepole_details
-{
-margin: 5px;
 
-} */
