@@ -12,94 +12,44 @@
 
     <!-- main css file  -->
     <link rel="stylesheet" href="main.css">
+    <!-- responsive css file  -->
     <link rel="stylesheet" href="css/responsive.css">
-
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
 
 </head>
 
-<style>
-   /* weather  */
-  .weather_details{
-  margin-top:-90%;
-  color: white;
-}
-tr th{
-  color:white;
-}
-
-
-    @media (max-width: 575.98px) {
-        .footer_detail
-        {
-         text-align: center;
-        }
-
-        .footer_half_black {
-            background: rgba(0, 0, 0, 0.7);
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            color: white;
-            text-align: center;
-            
-            margin-top: -95%;
-          }
-          .footer_half_black {
-        background: rgba(0, 0, 0, 0.7);
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
-        
-        margin-top: -75%;
-      }
-      .footer_detail
-      {
-       text-align: center;
-      }
-
-      /* weather  */
-      .weather_details{
-        margin-top:-110%;
-        color: white;
-      }
-
-    }
-</style>
-
 <body>
     <div class="  site-blocks-cover overlay responsive ">
         <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid main_img" alt="Responsive image "
             style="width: 100%;" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="col-sm-12 languageselector">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p class="logo_title"> BHANDARIA MUNICIPALITY </p>
+            <div class="col-sm-12 languageselector container-fluid">
+                <div class="row pt-3">
+                    <div class="col-sm-4 container-fluid logo_title">
+                        <p class="logo_title "> BHANDARIA MUNICIPALITY </p>
+                    </div>
+                    <div class="col-sm-2 container-fluid btn-group s_language" role="group" aria-label="Second group">
+                        <button type="button" class="btn btn-light">EN</button>
+                        <button type="button" class="btn btn-light">BAN</button>
+                    </div>
+    
+                    <div class="col-sm-2 container-fluid">
+                        <button type="button " class="btn btn-light map"> MAP </button>
+                        <button type="button" class="btn btn-light log ml-3"> Log In </button>
+                    </div>
+    
+                    <div class="col-sm-2 container-fluid" style="margin-top:3px" role="group" aria-label="Second group" id="serch">
+                        <input class="form-control py-2" type="search" value="search" id="example-search-input">
+                    </div>
+    
                 </div>
-                <div class="col-sm-1 btn-group s_language" role="group" aria-label="Second group">
-                    <button type="button" class="btn btn-light">EN</button>
-                    <button type="button" class="btn btn-light">BAN</button>
-                </div>
-
-                <div class="col-sm-1">
-                    <button type="button " class="btn btn-light map"> MAP </button>
-
-                </div>
-
-                <div style="margin-top:3px" role="group" aria-label="Second group" id="serch">
-                    <input class="form-control py-2" type="search" value="search" id="example-search-input">
-                </div>
-
             </div>
-        </div>
         <div class="col-md-12 menu_main">
             <div class="row">
                 <div class="col-md-3">
                     <div class="container-fluid">
-                        <div class="mybtn responsive">
+                        <div class="mybtn">
                             <a class="button">HOME</a>
                             <a class="button">NEWS</a>
                             <a class="button">NOTICES</a>
@@ -108,298 +58,310 @@ tr th{
                             <a class="button">GAlLARES</a>
                             <a class="button">DOCUMENTS</a>
                             <a class="button">PEPOLE</a>
-                            <a class="button">FOROME</a>
-                            <a class="button">PAGE EXAMPLES</a>
+                            <a class="button">INSTITUTION </a>
+                            <a class="button"> COMPLAIN BOX </a>
+                            <a class="button"> CONTACT </a>
                         </div>
                     </div>
+                    <br>
                     <br>
                     <!-- weather info  -->
-                    <div class="container-fluid">
-                        <div class=" bg-light weather">
-                            <img src="download.jpeg" style="width:100%;height:400px;" class="img-fluid"
-                                alt="Responsive image" data-aos="fade" data-stellar-background-ratio="0.5">
-                         <div class="weather_details">
-                            <h5 class="weather_header text-center "> WEATHER INFO </h5>
-                                <table class="table text-white text-center ">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col"> <small> Local Time</small>
-                                                <br> <small class="date">January 18, 2020
-                                                </small>
-                                            </th>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class=" bg-light ">
+                                    <img src="download.jpeg" style="width:100%;height:400px;" class="img-fluid"
+                                        alt="Responsive image" data-aos="fade" data-stellar-background-ratio="0.5">
+                                    <div class="centered">
 
-                                            <th scope="col">8.30</th>
+                                        <h5 class="weather_header text-white text-center"> WEATHER INFO </h5>
 
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">Today
-                                                <br> <small>January 18, 2020
-                                                </small>
-                                            </th>
+                                        <div style="overflow: hidden;">
+                                            <p class="text-white" style="float: left;">Local Time</p>
+                                            <p class="text-white" style="float: right;">3:08 pm </p>
+                                        </div>
+                                        <div style="overflow: hidden;">
+                                            <p class="text-white" style="float: left;">Today
+                                                <small>
+                                                    January 29, 2020
+                                                </small> </p>
+                                            <p class="text-white" style="float: right;">2c</p>
+                                        </div>
 
-                                            <td>-6°</td>
+                                        <div style="overflow: hidden;">
+                                            <p class="text-white" style="float: left;">Today
+                                                <small>
+                                                    January 29, 2020
+                                                </small> </p>
+                                            <p class="text-white" style="float: right;">2c</p>
+                                        </div>
 
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Sunday
-                                                <br> <small>January 19, 2020
-                                                </small>
-                                            </th>
+                                        <div style="overflow: hidden;">
+                                            <p class="text-white" style="float: left;">Today
+                                                <small>
+                                                    January 29, 2020
+                                                </small> </p>
+                                            <p class="text-white" style="float: right;">2c</p>
+                                        </div>
 
-                                            <td>24°</td>
 
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Monday
-                                                <br> <small>January 20, 2020
-                                                </small>
-                                            </th>
+                                        <p class="weather_detail_link text-white"> weather data by <a
+                                                href="www.weather.com">weather.com</a>
+                                        </p>
 
-                                            <td>16°</td>
-
-                                        </tr>
-                                    </tbody>
-
-                                </table>
-                                <p class="weather_detail_link text-center "> weather data by <a
-                                        href="www.weather.com">weather.com</a>
-                                </p>
-
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <br>
-                    <!-- gallary -->
+                    <br>
+                    <!-- End weather Section  -->
 
-                    <div class="container-fluid featured_gallery " >
-                        <h6 class="text-center" >FEATURED GALLERY
-                        </h6>
-                        <img class="card-img-top" src="1-whytheweathe.jpg" style="width:110%" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="galary_title"><a href="#">Streets of Bhandaria</a>
-                                <br> <small>November 17, 2018
+                    <!-- start Fetured  gallary -->
 
-                                </small></p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="container pt-3">
+                                    <h6>FEATURED GALLERY
+                                    </h6>
+                                    <br>
+                                    <img class="card-img-top" src="1-whytheweathe.jpg" style="width:100%"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="galary_title"><a href="#">Streets of Bhandaria</a>
+                                            <br> <small>November 17, 2018
 
-                            <p> <a href="#"> More </a></p>
+                                            </small></p>
+
+                                        <p> <a href="#"> More </a></p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
-                    <!-- gallary -->
-
+                    <!-- End Fetured  gallary -->
                 </div>
                 <div class="col-md-8">
-                    <div class="half_black text-white ">
-                        <h2 class="main_title text-justify"> <b>Notices </b><br>
+                    <div class="half_black text-white">
+                        <h2 class="main_title text-justify"> Notices <br>
 
                     </div>
 
                     <br>
-                    <!-- choose your interest  -->
-
-                    <div class="col-md-12 ">
-                        <div class="card">
-                            <div class="card-header" style="color: red;">
-                                <a href=""> Soccer Tournament Timetable </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">A knockout tournament or elimination tournament is divided
-                                    into successive rounds; each competitor plays in at least one fixture per
-                                    round. The top-ranked competitors in each fixture progress to the next
-                                    round. As rounds progress, the number of competitors and fixtures decreases.
-                                    The final round, usually known as the final or cup final, consists of just
-                                    one fixture; the winner of which is the overall champion.
-
-                                    In a single-elimination tournament, only the top-ranked competitors in a
-                                    fixture progress; in 2-competitor games, only the winner progresses. All
-                                    other competitors are eliminated. This ensures a winner is decided with the
-                                    minimum number of fixtures. However, most competitors will be eliminated
-                                    after relatively few matches; a single bad or unlucky performance can
-                                    nullify many preceding excellent ones.
-
-                                    A double-elimination tournament may be used in 2-competitor games to allow
-                                    each competitor a single loss without being eliminated from the tournament.
-                                    All losers from the main bracket enter a losers’ bracket, the winner of
-                                    which plays off against the main bracket’s winner.</p>
-                                <p> December 1, 2018 by
-                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
-                                </p>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="card">
-                            <div class="card-header" style="color: red;">
-                                <a href=""> Soccer Tournament Timetable </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Soccer Tournament Timetable</h5>
-                                <p class="card-text">The marathon is a long-distance running event with an official
-                                    distance of 42.195 kilometres (26 miles and 385 yards), usually run as a road race.
-                                    The event was instituted in commemoration of the fabled run of the Greek soldier
-                                    Pheidippides, a messenger from the Battle of Marathon to Athens.
-
-                                    The marathon was one of the original modern Olympic events in 1896, though the
-                                    distance did not become standardized until 1921. More than 500 marathons are held
-                                    throughout the world each year, with the vast majority of competitors being
-                                    recreational athletes as larger marathons can have tens of thousands of
-                                    participants.</p>
-                                <p> December 1, 2018 by
-                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
-                                </p>
-                            </div>
-                        </div>
-                        <br>
-                        <!--  -->
-
-                        <div class="card">
-                            <div class="card-header" style="color: red;">
-                                <a href=""> Soccer Tournament Timetable </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">A knockout tournament or elimination tournament is divided
-                                    into successive rounds; each competitor plays in at least one fixture per
-                                    round. The top-ranked competitors in each fixture progress to the next
-                                    round. As rounds progress, the number of competitors and fixtures decreases.
-                                    The final round, usually known as the final or cup final, consists of just
-                                    one fixture; the winner of which is the overall champion.
-
-                                    In a single-elimination tournament, only the top-ranked competitors in a
-                                    fixture progress; in 2-competitor games, only the winner progresses. All
-                                    other competitors are eliminated. This ensures a winner is decided with the
-                                    minimum number of fixtures. However, most competitors will be eliminated
-                                    after relatively few matches; a single bad or unlucky performance can
-                                    nullify many preceding excellent ones.
-
-                                    A double-elimination tournament may be used in 2-competitor games to allow
-                                    each competitor a single loss without being eliminated from the tournament.
-                                    All losers from the main bracket enter a losers’ bracket, the winner of
-                                    which plays off against the main bracket’s winner.</p>
-                                <p> December 1, 2018 by
-                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
-                                </p>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="card">
-                            <div class="card-header" style="color: red;">
-                                <a href=""> Soccer Tournament Timetable </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">A knockout tournament or elimination tournament is divided into
-                                    successive rounds; each competitor plays in at least one fixture per round. The
-                                    top-ranked competitors in each fixture progress to the next round. As rounds
-                                    progress, the number of competitors and fixtures decreases. The final round, usually
-                                    known as the final or cup final, consists of just one fixture; the winner of which
-                                    is the overall champion. In a single-elimination tournament, only the top-ranked
-                                    competitors in a fixture progress; in 2-competitor games, only the winner
-                                    progresses. All other competitors are eliminated. This ensures a winner is decided
-                                    with the minimum number of fixtures. However, most competitors will be eliminated
-                                    after relatively few matches; a single bad or unlucky performance can nullify many
-                                    preceding excellent ones. A double-elimination tournament may be used in
-                                    2-competitor games to allow each competitor a single loss without being eliminated
-                                    from the tournament. All losers from the main bracket enter a losers’ bracket, the
-                                    winner of which plays off against the main bracket’s winner.</p>
-                                <p> December 1, 2019 by
-                                    <a href="#"> <small> LSVRthemes in Sport </small></a>
-                                </p>
-                            </div>
-                        </div>
-                        <br>
-                    </div>
-
-                </div> <!-- letest news section start  -->
-
-                <!-- footer section -->
-               <!-- footer section -->
-               <div>
-                <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
-                    alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
-                    data-stellar-background-ratio="0.5">
-
-                <!-- <footer class="footer_half_black "> -->
-                <!--  testing end  -->
-                <div class="col-md-12 footer_half_black">
+                    <!-- Main Notice section start   -->
                     <div class="row">
-                        <div class="col-md-3 ">
-                            <h6> <b> ABOUT CITY</b>
-                            </h6>
-                            <br>
-                            <p class="footer_detail">TownPress is a premium Municipality WordPress theme. It is
-                                best suited to be used
-                                as
-                                a presentation site for small to medium towns.
-                                You will find an extensive list of features to help create the website your town
-                                needs!</p>
-                        </div>
-                        <!-- upcoming events  -->
-                        <div class="col-md-3">
-                            <h6> <b>UPCOMING EVENTS </b>
-                            </h6>
-                            <br>
-                            <p class="footer_upcoming_events footer_detail">
-                                <a href="#" class=""> Kids Sports Day </a>
-                                <br>
-                                <small class="">8:00 am - 5:00 pm
-                                </small> <br>
-                                <small><a href="#" class="">TownPress Stadium</a></small>
-                            </p>
-                            <br>
-                            <p class="footer_upcoming_events footer_detail">
-                                <a href="#" class=""> Kids Sports Day </a>
-                                <br>
-                                <small class="">8:00 am - 5:00 pm
-                                </small> <br>
+                        <div class="col-md-12 container-fluid">
+                            <div class="card">
+                                <div class="card-header" style="color: red;">
+                                    <a href=""> Soccer Tournament Timetable </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">A knockout tournament or elimination tournament is divided
+                                        into successive rounds; each competitor plays in at least one fixture per
+                                        round. The top-ranked competitors in each fixture progress to the next
+                                        round. As rounds progress, the number of competitors and fixtures decreases.
+                                        The final round, usually known as the final or cup final, consists of just
+                                        one fixture; the winner of which is the overall champion.
 
-                                <small> <a href="#" class="">TownPress Stadium</a></small>
-                            </p>
-                        </div>
-                        <!-- important Forms  -->
-                        <div class="col-md-3 ">
-                            <h6 class="">
-                                <b> IMPORTANT FORMS </b>
-                            </h6>
-                            <br>
-                            <p class = "footer_detail">
-                                <a href="#" class=" "> Town Board Applications
-                                </a>
-                                <br> <small class=""> December 2, 2018
-                                </small>
-                                <br>
-                                <a href="#" class=""> Town Board Applications
-                                </a>
-                                <br> <small class=""> December 2, 2018
-                                </small>
-                            </p>
-                            <br>
-                            <p class = "footer_detail"><a class="" href="#">More Documents </a></p>
+                                        In a single-elimination tournament, only the top-ranked competitors in a
+                                        fixture progress; in 2-competitor games, only the winner progresses. All
+                                        other competitors are eliminated. This ensures a winner is decided with the
+                                        minimum number of fixtures. However, most competitors will be eliminated
+                                        after relatively few matches; a single bad or unlucky performance can
+                                        nullify many preceding excellent ones.
 
-                        </div>
-                        <div class="col-md-3">
-                            <h6> <b>QUICK CONTACT </b>
-                            </h6>
+                                        A double-elimination tournament may be used in 2-competitor games to allow
+                                        each competitor a single loss without being eliminated from the tournament.
+                                        All losers from the main bracket enter a losers’ bracket, the winner of
+                                        which plays off against the main bracket’s winner.</p>
+                                    <p> December 1, 2018 by
+                                        <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                    </p>
+                                </div>
+                            </div>
                             <br>
-                            <p class=" footer_detail"> P.O. Box 123 TownPress
-                                VT 12345</p>
-                            <p class="footer_detail">
-                                Phone: (123) 456-7890
-                            </p>
-                            <p class=" footer_detail">Fax: (123) 456-7891
-                            </p>
-                            <p class=" footer_detail"> Email : <a href="#">townpress@example.org</a></p>
+                            <div class="card">
+                                <div class="card-header" style="color: red;">
+                                    <a href=""> Soccer Tournament Timetable </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Soccer Tournament Timetable</h5>
+                                    <p class="card-text">The marathon is a long-distance running event with an official
+                                        distance of 42.195 kilometres (26 miles and 385 yards), usually run as a road
+                                        race.
+                                        The event was instituted in commemoration of the fabled run of the Greek soldier
+                                        Pheidippides, a messenger from the Battle of Marathon to Athens.
+
+                                        The marathon was one of the original modern Olympic events in 1896, though the
+                                        distance did not become standardized until 1921. More than 500 marathons are
+                                        held
+                                        throughout the world each year, with the vast majority of competitors being
+                                        recreational athletes as larger marathons can have tens of thousands of
+                                        participants.</p>
+                                    <p> December 1, 2018 by
+                                        <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <!--  -->
+
+                            <div class="card">
+                                <div class="card-header" style="color: red;">
+                                    <a href=""> Soccer Tournament Timetable </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">A knockout tournament or elimination tournament is divided
+                                        into successive rounds; each competitor plays in at least one fixture per
+                                        round. The top-ranked competitors in each fixture progress to the next
+                                        round. As rounds progress, the number of competitors and fixtures decreases.
+                                        The final round, usually known as the final or cup final, consists of just
+                                        one fixture; the winner of which is the overall champion.
+
+                                        In a single-elimination tournament, only the top-ranked competitors in a
+                                        fixture progress; in 2-competitor games, only the winner progresses. All
+                                        other competitors are eliminated. This ensures a winner is decided with the
+                                        minimum number of fixtures. However, most competitors will be eliminated
+                                        after relatively few matches; a single bad or unlucky performance can
+                                        nullify many preceding excellent ones.
+
+                                        A double-elimination tournament may be used in 2-competitor games to allow
+                                        each competitor a single loss without being eliminated from the tournament.
+                                        All losers from the main bracket enter a losers’ bracket, the winner of
+                                        which plays off against the main bracket’s winner.</p>
+                                    <p> December 1, 2018 by
+                                        <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card">
+                                <div class="card-header" style="color: red;">
+                                    <a href=""> Soccer Tournament Timetable </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">A knockout tournament or elimination tournament is divided into
+                                        successive rounds; each competitor plays in at least one fixture per round. The
+                                        top-ranked competitors in each fixture progress to the next round. As rounds
+                                        progress, the number of competitors and fixtures decreases. The final round,
+                                        usually
+                                        known as the final or cup final, consists of just one fixture; the winner of
+                                        which
+                                        is the overall champion. In a single-elimination tournament, only the top-ranked
+                                        competitors in a fixture progress; in 2-competitor games, only the winner
+                                        progresses. All other competitors are eliminated. This ensures a winner is
+                                        decided
+                                        with the minimum number of fixtures. However, most competitors will be
+                                        eliminated
+                                        after relatively few matches; a single bad or unlucky performance can nullify
+                                        many
+                                        preceding excellent ones. A double-elimination tournament may be used in
+                                        2-competitor games to allow each competitor a single loss without being
+                                        eliminated
+                                        from the tournament. All losers from the main bracket enter a losers’ bracket,
+                                        the
+                                        winner of which plays off against the main bracket’s winner.</p>
+                                    <p> December 1, 2019 by
+                                        <a href="#"> <small> LSVRthemes in Sport </small></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
                         </div>
+
                     </div>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-
                 </div>
-               
-                <!-- </footer> -->
+            </div>
+                <br>
+                <br>
+                <!-- footer section -->
+                <div class="col-md-12 container-fluid">
+                    <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
+                        alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
+                        data-stellar-background-ratio="0.5">
+                    <div class="col-md-12 footer_half_black">
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <h6> <b> ABOUT CITY</b>
+                                </h6>
+                                <br>
+                                <p class="footer_detail">TownPress is a premium Municipality WordPress theme. It is
+                                    best suited to be used
+                                    as
+                                    a presentation site for small to medium towns.
+                                    You will find an extensive list of features to help create the website your town
+                                    needs!</p>
+                            </div>
+                            <!-- upcoming events  -->
+                            <div class="col-md-3">
+                                <h6> <b>UPCOMING EVENTS </b>
+                                </h6>
+                                <br>
+                                <p class="footer_upcoming_events footer_detail">
+                                    <a href="#" class=""> Kids Sports Day </a>
+                                    <br>
+                                    <small class="">8:00 am - 5:00 pm
+                                    </small> <br>
+                                    <small><a href="#" class="">TownPress Stadium</a></small>
+                                </p>
+                                <br>
+                                <p class="footer_upcoming_events footer_detail">
+                                    <a href="#" class=""> Kids Sports Day </a>
+                                    <br>
+                                    <small class="">8:00 am - 5:00 pm
+                                    </small> <br>
+
+                                    <small> <a href="#" class="">TownPress Stadium</a></small>
+                                </p>
+                            </div>
+                            <!-- important Forms  -->
+                            <div class="col-md-3 ">
+                                <h6 class="">
+                                    <b> IMPORTANT FORMS </b>
+                                </h6>
+                                <br>
+                                <p class="footer_detail">
+                                    <a href="#" class=" "> Town Board Applications
+                                    </a>
+                                    <br> <small class=""> December 2, 2018
+                                    </small>
+                                    <br>
+                                    <a href="#" class=""> Town Board Applications
+                                    </a>
+                                    <br> <small class=""> December 2, 2018
+                                    </small>
+                                </p>
+                                <br>
+                                <p class="footer_detail"><a class="" href="#">More Documents </a></p>
+
+                            </div>
+                            <div class="col-md-3">
+                                <h6> <b>QUICK CONTACT </b>
+                                </h6>
+                                <br>
+                                <p class=" footer_detail"> P.O. Box 123 TownPress
+                                    VT 12345</p>
+                                <p class="footer_detail">
+                                    Phone: (123) 456-7890
+                                </p>
+                                <p class=" footer_detail">Fax: (123) 456-7891
+                                </p>
+                                <p class=" footer_detail"> Email : <a href="#">townpress@example.org</a></p>
+                            </div>
+                        </div>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+
+                    </div>
+
+                    <!-- </footer> -->
 
 
                     <!-- </footer> -->

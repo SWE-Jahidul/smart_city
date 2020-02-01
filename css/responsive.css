@@ -33,13 +33,10 @@
     color: white;
     text-align: center;
     padding: 2%;
-    margin-top: -39%;
+    margin-top: -37%;
   }
   }
 @media (max-width: 1199.98px) {  }
-
-
-
 
 /* for max and min width  */
 
@@ -47,12 +44,12 @@
   
     .mybtn {
         
-        margin-top: 30%;
+        margin-top: 50%;
      }
 
      .languageselector {
         position: absolute;
-        top: 5%;
+        margin-left: 6%;
         left: 46%;
         transform: translate(-50%, -50%);
       }
@@ -60,11 +57,15 @@
       .map{
         
         margin-left:20%;
-        width: 50%;
+        width: 30%;
       }  
+      .logo_title{
+        width: 25%;
+      }
       #serch{
         top: 20%;
-        margin-left: 18%;
+        margin-left: 3%;
+        width: 100%;
       }  
 
       .footer_half_black {
@@ -75,7 +76,7 @@
         color: white;
         text-align: center;
         
-        margin-top: -75%;
+        margin-top: -100%;
       }
       .footer_detail
       {
@@ -88,6 +89,14 @@
         text-align: center;
         color: white;
         margin-top: -63%;
+      }
+
+      .logo_title{
+        padding-top: 36%;
+        padding-left: 5%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
       }
 
   }
