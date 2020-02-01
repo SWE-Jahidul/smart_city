@@ -6,42 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> smart city</title>
-    <!-- bootstrub css file  -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- main css file  -->
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
+    <!-- =============================================== -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- =============================================== -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- =============================================== -->
+    <link rel="stylesheet" href="../css/responsive.css">
+   <!-- =============================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- =============================================== -->
     <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
-
+    <!-- =============================================== -->
 </head>
 <style>
-    .notices_div {
+   .notices_div
+    {
         margin-right: 3%;
     }
 </style>
-
 <body>
     <div class=" site-blocks-cover overlay responsive">
-        <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid main_img" alt="Responsive image "
+        <img src="../images/Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid main_img" alt="Responsive image "
             style="width: 100%;" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="col-sm-12 languageselector container-fluid">
-            <div class="row pt-3">
-                <div class="col-sm-4 container-fluid logo_title">
-                    <p class="logo_title "> BHANDARIA MUNICIPALITY </p>
+        <div class="col-sm-12 languageselector">
+            <div class="row">
+                <div class="col-sm-6 logo_title">
+                    <p class="logo_title"> BHANDARIA MUNICIPALITY </p>
                 </div>
-                <div class="col-sm-2 container-fluid btn-group s_language" role="group" aria-label="Second group">
+                <div class="col-sm-1 btn-group s_language" role="group" aria-label="Second group">
                     <button type="button" class="btn btn-light">EN</button>
                     <button type="button" class="btn btn-light">BAN</button>
                 </div>
 
-                <div class="col-sm-2 container-fluid">
+                <div class="col-sm-1">
                     <button type="button " class="btn btn-light map"> MAP </button>
-                    <button type="button" class="btn btn-light log ml-3"> Log In </button>
+
                 </div>
 
-                <div class="col-sm-2 container-fluid" style="margin-top:3px" role="group" aria-label="Second group" id="serch">
+                <div style="margin-top:3px" role="group" aria-label="Second group" id="serch">
                     <input class="form-control py-2" type="search" value="search" id="example-search-input">
                 </div>
 
@@ -50,7 +52,6 @@
         <div class="col-md-12 menu_main ">
             <div class="row">
                 <div class="col-md-3">
-                    <!-- start main menu section   -->
                     <div class="container-fluid ">
                         <div class="mybtn">
                             <a class="button">HOME</a>
@@ -61,100 +62,96 @@
                             <a class="button">GAlLARES</a>
                             <a class="button">DOCUMENTS</a>
                             <a class="button">PEPOLE</a>
+                         
                             <a class="button">INSTITUTION </a>
-                            <a class="button"> COMPLAIN BOX </a>
+                            <a class="button"> COMPLAIN BOX  </a>
                             <a class="button"> CONTACT </a>
                         </div>
                     </div>
                     <br>
-                    <br>
-                    <!-- End main menu section  -->
 
-                    <!-- Start weather info  -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class=" bg-light ">
-                                    <img src="download.jpeg" style="width:100%;height:400px;" class="img-fluid"
-                                        alt="Responsive image" data-aos="fade" data-stellar-background-ratio="0.5">
-                                    <div class="centered">
+            
+                    <!-- weather info  -->
+                    <div class="container-fluid">
+                        <div class=" bg-light weather">
+                            <img src="../images/download.jpeg" style="width:100%;height:400px;" class="img-fluid"
+                                alt="Responsive image" data-aos="fade" data-stellar-background-ratio="0.5">
+                                <div class="weather_details">
 
-                                        <h5 class="weather_header text-white text-center"> WEATHER INFO </h5>
+                                <h5 class="weather_header text-center"> WEATHER INFO </h5>
+                                <table class="table text-white text-center ">
+                                    <thead>
+                                        <tr class="">
+                                            <th scope="col"> <small> Local Time</small>
+                                                <br> <small class="date">January 18, 2020
+                                                </small>
+                                            </th>
 
-                                        <div style="overflow: hidden;">
-                                            <p class="text-white" style="float: left;">Local Time</p>
-                                            <p class="text-white" style="float: right;">3:08 pm </p>
-                                        </div>
-                                        <div style="overflow: hidden;">
-                                            <p class="text-white" style="float: left;">Today
-                                                <small>
-                                                    January 29, 2020
-                                                </small> </p>
-                                            <p class="text-white" style="float: right;">2c</p>
-                                        </div>
+                                            <th scope="col">8.30</th>
 
-                                        <div style="overflow: hidden;">
-                                            <p class="text-white" style="float: left;">Today
-                                                <small>
-                                                    January 29, 2020
-                                                </small> </p>
-                                            <p class="text-white" style="float: right;">2c</p>
-                                        </div>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Today
+                                                <br> <small>January 18, 2020
+                                                </small>
+                                            </th>
 
-                                        <div style="overflow: hidden;">
-                                            <p class="text-white" style="float: left;">Today
-                                                <small>
-                                                    January 29, 2020
-                                                </small> </p>
-                                            <p class="text-white" style="float: right;">2c</p>
-                                        </div>
+                                            <td>-6°</td>
 
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Sunday
+                                                <br> <small>January 19, 2020
+                                                </small>
+                                            </th>
 
-                                        <p class="weather_detail_link text-white"> weather data by <a
-                                                href="www.weather.com">weather.com</a>
-                                        </p>
+                                            <td>24°</td>
 
-                                    </div>
-                                </div>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Monday
+                                                <br> <small>January 20, 2020
+                                                </small>
+                                            </th>
+
+                                            <td>16°</td>
+
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                                <p class="weather_detail_link text-center "> weather data by <a
+                                        href="www.weather.com">weather.com</a>
+                                </p>
+
                             </div>
                         </div>
                     </div>
-                    <!-- End Weather Section  -->
                     <br>
-                    <br>
-                    <!-- start Fetured  gallary -->
+                    <!-- gallary -->
+<br>
+                    <div class="container-fluid featured_gallery ">
+                        <h6 class="text-center text-black">FEATURED GALLERY
+                        </h6>
+                        <img class="card-img-top" src="../images/1-whytheweathe.jpg" style="width:110%" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="galary_title"><a href="#">Streets of Bhandaria</a>
+                                <br> <small>November 17, 2018
 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class="container pt-3">
-                                    <h6>FEATURED GALLERY
-                                    </h6>
-                                    <br>
-                                    <img class="card-img-top" src="1-whytheweathe.jpg" style="width:100%"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="galary_title"><a href="#">Streets of Bhandaria</a>
-                                            <br> <small>November 17, 2018
+                                </small></p>
 
-                                            </small></p>
-
-                                        <p> <a href="#"> More </a></p>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <p> <a href="#"> More </a></p>
                         </div>
                     </div>
 
-
-                    <!-- End Fetured  gallary -->
+                    <!-- gallary -->
 
                 </div>
-
                 <div class="col-md-5 container-fluid">
                     <div class="half_black text-white ">
-                        <h2 class="main_title pt-3"> <b>Welcome to Bhandaria, </b><br>
+                        <h2 class="main_title"> <b>Welcome to Bhandaria, </b><br>
                             <em> the Most Exciting Town of North!</em></h2>
                     </div>
 
@@ -291,104 +288,112 @@
 
                             <h5 class="intersting_places">INTERESTING PLACES</h5>
                             <div class="row">
+
                             </div>
+
+
                             <p class="news_title_for_notice" id="more_notice"> <a href="#">More Notices</a></p>
 
                         </div>
 
                     </div>
 
+
                 </div>
-            </div>
-            <br><br>
-            <br>
-            <!-- footer section -->
-            <div class="container-fluid">
-                <img src="Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
-                    alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
-                    data-stellar-background-ratio="0.5">
-                <div class="col-md-12 footer_half_black">
-                    <div class="row">
-                        <div class="col-md-3 ">
-                            <h6> <b> ABOUT CITY</b>
-                            </h6>
-                            <br>
-                            <p class="footer_detail">TownPress is a premium Municipality WordPress theme. It is
-                                best suited to be used
-                                as
-                                a presentation site for small to medium towns.
-                                You will find an extensive list of features to help create the website your town
-                                needs!</p>
-                        </div>
-                        <!-- upcoming events  -->
-                        <div class="col-md-3">
-                            <h6> <b>UPCOMING EVENTS </b>
-                            </h6>
-                            <br>
-                            <p class="footer_upcoming_events footer_detail">
-                                <a href="#" class=""> Kids Sports Day </a>
-                                <br>
-                                <small class="">8:00 am - 5:00 pm
-                                </small> <br>
-                                <small><a href="#" class="">TownPress Stadium</a></small>
-                            </p>
-                            <br>
-                            <p class="footer_upcoming_events footer_detail">
-                                <a href="#" class=""> Kids Sports Day </a>
-                                <br>
-                                <small class="">8:00 am - 5:00 pm
-                                </small> <br>
 
-                                <small> <a href="#" class="">TownPress Stadium</a></small>
-                            </p>
-                        </div>
-                        <!-- important Forms  -->
-                        <div class="col-md-3 ">
-                            <h6 class="">
-                                <b> IMPORTANT FORMS </b>
-                            </h6>
-                            <br>
-                            <p class="footer_detail">
-                                <a href="#" class=" "> Town Board Applications
-                                </a>
-                                <br> <small class=""> December 2, 2018
-                                </small>
-                                <br>
-                                <a href="#" class=""> Town Board Applications
-                                </a>
-                                <br> <small class=""> December 2, 2018
-                                </small>
-                            </p>
-                            <br>
-                            <p class="footer_detail"><a class="" href="#">More Documents </a></p>
+                <!-- footer section -->
+                <div class="container-fluid">
+                    <img src="../images/Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid footer_image "
+                        alt="Responsive image " style="width: 100%; height: 300px;" data-aos="fade"
+                        data-stellar-background-ratio="0.5">
 
+                    <!-- <footer class="footer_half_black "> -->
+                    <!--  testing end  -->
+                    <div class="col-md-12 footer_half_black">
+                        <div class="row">
+                            <div class="col-md-3 ">
+                                <h6> <b> ABOUT CITY</b>
+                                </h6>
+                                <br>
+                                <p class="footer_detail">TownPress is a premium Municipality WordPress theme. It is
+                                    best suited to be used
+                                    as
+                                    a presentation site for small to medium towns.
+                                    You will find an extensive list of features to help create the website your town
+                                    needs!</p>
+                            </div>
+                            <!-- upcoming events  -->
+                            <div class="col-md-3">
+                                <h6> <b>UPCOMING EVENTS </b>
+                                </h6>
+                                <br>
+                                <p class="footer_upcoming_events footer_detail">
+                                    <a href="#" class=""> Kids Sports Day </a>
+                                    <br>
+                                    <small class="">8:00 am - 5:00 pm
+                                    </small> <br>
+                                    <small><a href="#" class="">TownPress Stadium</a></small>
+                                </p>
+                                <br>
+                                <p class="footer_upcoming_events footer_detail">
+                                    <a href="#" class=""> Kids Sports Day </a>
+                                    <br>
+                                    <small class="">8:00 am - 5:00 pm
+                                    </small> <br>
+
+                                    <small> <a href="#" class="">TownPress Stadium</a></small>
+                                </p>
+                            </div>
+                            <!-- important Forms  -->
+                            <div class="col-md-3 ">
+                                <h6 class="">
+                                    <b> IMPORTANT FORMS </b>
+                                </h6>
+                                <br>
+                                <p class = "footer_detail">
+                                    <a href="#" class=" "> Town Board Applications
+                                    </a>
+                                    <br> <small class=""> December 2, 2018
+                                    </small>
+                                    <br>
+                                    <a href="#" class=""> Town Board Applications
+                                    </a>
+                                    <br> <small class=""> December 2, 2018
+                                    </small>
+                                </p>
+                                <br>
+                                <p class = "footer_detail"><a class="" href="#">More Documents </a></p>
+
+                            </div>
+                            <div class="col-md-3">
+                                <h6> <b>QUICK CONTACT </b>
+                                </h6>
+                                <br>
+                                <p class=" footer_detail"> P.O. Box 123 TownPress
+                                    VT 12345</p>
+                                <p class="footer_detail">
+                                    Phone: (123) 456-7890
+                                </p>
+                                <p class=" footer_detail">Fax: (123) 456-7891
+                                </p>
+                                <p class=" footer_detail"> Email : <a href="#">townpress@example.org</a></p>
+                            </div>
                         </div>
-                        <div class="col-md-3">
-                            <h6> <b>QUICK CONTACT </b>
-                            </h6>
-                            <br>
-                            <p class=" footer_detail"> P.O. Box 123 TownPress
-                                VT 12345</p>
-                            <p class="footer_detail">
-                                Phone: (123) 456-7890
-                            </p>
-                            <p class=" footer_detail">Fax: (123) 456-7891
-                            </p>
-                            <p class=" footer_detail"> Email : <a href="#">townpress@example.org</a></p>
-                        </div>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+    
                     </div>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                   
+                    <!-- </footer> -->
 
-                </div>
+                </div clas>
+
             </div>
         </div>
-    </div>
     </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
