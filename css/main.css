@@ -1,3 +1,22 @@
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
+}
+
 /* body part  */
 body
 {
@@ -17,17 +36,19 @@ body
 .languageselector {
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
+  font-family:  Montserrat-Regular;
 }
 
 .s_language{
   margin: 5px;
+
 }
 
 /* map section  */
   .map{
-    margin:5px;
+    margin-top:4px;
 
   }
 /* all button design  */
