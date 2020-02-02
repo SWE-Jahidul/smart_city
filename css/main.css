@@ -1,6 +1,10 @@
 
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
 
 @font-face {
   font-family: Montserrat-Bold;
@@ -20,47 +24,78 @@
 /* body part  */
 body
 {
+  background-attachment: fixed;
   width: 100%;
   background-color: whitesmoke;
+  font-family: Montserrat-Regular, sans-serif;
 }
+
+
 /* main logo title  */
 .logo_title{
   font-family: 'Bad Script';
   font-size: 22px;
   font-weight: bolder;
   color: white;
-  margin-left: 10%;
+  margin-left: 3%;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
 
 }
 /* select your language  */
 .languageselector {
   position: absolute;
-  top: 5%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+  top: 1px;
+  margin-left: -1%;
   font-family:  Montserrat-Regular;
 }
 
 .s_language{
+  position: relative;
   margin: 5px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  letter-spacing: 1px;
+  font-family: Montserrat-Regular;
 
 }
 
 /* map section  */
   .map{
+    position: relative;
     margin-top:4px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    letter-spacing: 1px;
+    font-family: Montserrat-Regular;
 
   }
 /* all button design  */
   .btn:hover {
-    background-color: #ff4d4d
-
+    background-color: #ff4d4d;
+    color: white;
   }
 
 /* Secrch button of home page  */
   #serch{
+    position: relative;
     top: 8%;
-    margin-right: 5%;
+   margin-left: 5%;
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+   letter-spacing: 1px;
+   font-family: Montserrat-Regular;
   }
 
 /* main menu section  */
@@ -68,6 +103,14 @@ body
     position: absolute;
     top: 15%;
     margin-left:3%;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    letter-spacing: 1px;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+
   }
 
 /* main title design  */
@@ -78,16 +121,24 @@ body
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
+  /* more news link */
+  .more_news_link
+  {
+    margin-left: 6%;
+  }
 /* transparent the black colore  */
   .half_black {
     background: rgba(0, 0, 0, 0.6);
   }
 
   li a {
-    font-size: 13px;
+    font-size: 15px;
     color: #ff4d4d;
   }
 
+ li a :hover{
+   color: red;
+ }
   h6 a{
     font-size: small;
     font-weight: bold;
@@ -127,6 +178,8 @@ body
   text-align: center;
   text-decoration: none;
   display: block;
+  letter-spacing: 1px;
+
 }
 /* verticale button heading  */
 .mybtn a:hover {
@@ -154,7 +207,13 @@ padding-bottom: 1rem;
 font-size: small;
 font-weight: bold;
 }
+/* about City Details  */
 
+.about_city_details{
+  letter-spacing: 1px;
+ font-size: 14px;
+
+}
 /* notics heading  */
 .notice_heading{
   padding-top: 1rem;
@@ -176,6 +235,13 @@ font-weight: bold;
 .table
 {
 width: 80%;
+
+}
+
+.weather_details
+{
+  font-size: smaller;
+  position: relative;
 }
 
 .centered {
@@ -198,6 +264,10 @@ tr th{
 }
 
 /* footer secton css code  */
+.footer
+{
+  margin-left: -3%;
+}
 
 /* footer optimntimize  and footer section design  */
 .footer_half_black {
@@ -286,4 +356,18 @@ p a{
  
 }
 
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 

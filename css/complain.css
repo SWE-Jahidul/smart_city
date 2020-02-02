@@ -146,7 +146,6 @@ iframe {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
   position: fixed;
   z-index: 1;
   top: 0;
@@ -201,11 +200,10 @@ iframe {
   background-color: #846add;
 }
 
-
-
 /*==================================================================
 [ Content container ]*/
 .container-contact100 {
+  background-image: url("../images/Skyscrapers_of_Shinjuku_2009_January_\(revised\).jpg");
   width: 100%;  
   min-height: 100vh;
   display: -webkit-box;
@@ -217,7 +215,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: rgba(132,106,221,0.8);
+  /* background: whitesmoke; */
   position: relative;
   z-index: 10;
 }
@@ -238,7 +236,6 @@ iframe {
   color: #fff;
   line-height: 1.2;
   text-transform: uppercase;
-
   width: 100%;
   min-height: 128px;
   position: relative;
