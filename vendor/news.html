@@ -27,31 +27,44 @@
 
 <body>
     <!-- top hader section  -->
-    <div class="site-blocks-cover overlay responsive ">
-        <img src="../images/Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid main_img" alt="Responsive image "
-            style="width: 100%;" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class=" container-fluid site-blocks-cover overlay responsive">
+        <img src="../images/Skyscrapers_of_Shinjuku_2009_January_(revised).jpg" class="img-fluid main_img"
+            alt="Responsive image " style="width: 100%;" data-aos="fade" data-stellar-background-ratio="0.5">
+
         <div class="col-sm-12 languageselector container-fluid">
-            <div class="row pt-3">
-                <div class="col-sm-4 container-fluid logo_title">
-                    <p class="logo_title "> BHANDARIA MUNICIPALITY </p>
-                </div>
-                <div class="col-sm-2 container-fluid btn-group s_language" role="group" aria-label="Second group">
-                    <button type="button" class="btn btn-light">EN</button>
-                    <button type="button" class="btn btn-light">BAN</button>
-                </div>
+            <nav class=" navbar-fixed-top  navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand logo_title" href="#">BHANDARIA MUNICIPALITY </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
 
-                <div class="col-sm-2 container-fluid">
-                    <button type="button " class="btn btn-light map"> MAP </button>
-                    <button type="button" class="btn btn-light log ml-3"> Log In </button>
-                </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Log In </a>
+                        </li>
+                        <li class="nav-item dropdown mr-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Language
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Bangla</a>
+                                <a class="dropdown-item" href="#">English</a>
 
-                <div class="col-sm-2 container-fluid" style="margin-top:3px" role="group" aria-label="Second group"
-                    id="serch">
-                    <input class="form-control py-2" type="search" value="search" id="example-search-input">
-                </div>
+                        </li>
 
-            </div>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
         </div>
+        <br>
         <!-- manin menu section  -->
         <div class="col-md-12 menu_main">
             <div class="row">

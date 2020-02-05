@@ -371,3 +371,15 @@ p a{
     position:absolute;
 }
 
+#event_date
+{
+  letter-spacing: 1px;
+}
+#event_time
+{
+  letter-spacing: 1px;
+}
+#location
+{
+  letter-spacing: 1px;
+}  
